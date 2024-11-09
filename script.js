@@ -21,7 +21,7 @@ const handleNoClick = (e) => {
   if (noCounter === 5) arcaneHeader.textContent = "Let's trade!";
   if (noCounter === 10)
     arcaneHeader.textContent =
-      "I could watch 1 episode of You for each episode of Arcane 😂";
+      "I could watch 1 episode of You for every episode of Arcane 😂";
   if (noCounter === 15) {
     arcaneHeader.textContent = "Aight. You win.";
     noLink.classList.remove("pulse");
