@@ -6,10 +6,11 @@
 }
 
 body {
-  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  height: 100dvh;
 }
 
 main {
@@ -23,17 +24,8 @@ a {
   text-decoration: none;
 }
 
-.input-group {
-  display: flex;
-  gap: 1rem;
-}
-
 .header {
   text-align: center;
-}
-
-.pulse {
-  animation: pulse 2s infinite;
 }
 
 .button {
@@ -49,6 +41,15 @@ a {
 
   font-size: 1.2rem;
   font-weight: 600;
+}
+
+.input-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.pulse {
+  animation: pulse 2s infinite;
 }
 
 #yes {
