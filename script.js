@@ -6,10 +6,9 @@ const yesLink = document.getElementById("yes");
 const noLink = document.getElementById("no");
 
 const handleNoClick = (e) => {
-  const maxWidth = window.innerWidth;
-  const maxHeight = window.innerHeight;
-  const randomWidth = (Math.random() * maxWidth) / 2;
-  const randomHeight = (Math.random() * maxHeight) / 2;
+  const { innerWidth, innerHeight } = window;
+  const randomWidth = (Math.random() * innerWidth) / 2;
+  const randomHeight = (Math.random() * innerHeight) / 2;
 
   noLink.style.position = "absolute";
   noLink.style.top = `${randomHeight}px`;
