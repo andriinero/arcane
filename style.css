@@ -26,6 +26,11 @@ a {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+
+  min-height: 125px;
+
   text-align: center;
 }
 
@@ -54,7 +59,7 @@ a {
 }
 
 #yes {
-  position: relative;
+  position: static;
 
   background-color: #c71585;
   border-radius: 8px;
